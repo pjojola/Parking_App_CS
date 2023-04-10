@@ -11,6 +11,7 @@
 		EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE2729E3B17C00F88061 /* ContentView.swift */; };
 		EE3AEE2A29E3B17D00F88061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEE2929E3B17D00F88061 /* Assets.xcassets */; };
 		EE3AEE2D29E3B17D00F88061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */; };
+		EE3AEE3429E3BAE600F88061 /* pageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE3329E3BAE600F88061 /* pageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EE3AEE2729E3B17C00F88061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE3AEE2929E3B17D00F88061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE3AEE3329E3BAE600F88061 /* pageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */,
-				EE3AEE2729E3B17C00F88061 /* ContentView.swift */,
+				EE3AEE3529E3BB3800F88061 /* Views */,
 				EE3AEE2929E3B17D00F88061 /* Assets.xcassets */,
 				EE3AEE2B29E3B17D00F88061 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE3AEE3529E3BB3800F88061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AEE2729E3B17C00F88061 /* ContentView.swift */,
+				EE3AEE3329E3BAE600F88061 /* pageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3AEE3429E3BAE600F88061 /* pageView.swift in Sources */,
 				EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */,
 				EE3AEE2629E3B17C00F88061 /* parking_appApp.swift in Sources */,
 			);
