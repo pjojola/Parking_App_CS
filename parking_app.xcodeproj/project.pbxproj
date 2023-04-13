@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2691946129E6AC4400FD56E9 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2691946029E6AC4400FD56E9 /* launchScreen.storyboard */; };
+		2691946B29E7ADA000FD56E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946A29E7ADA000FD56E9 /* DetailView.swift */; };
+		2691946D29E7AE3100FD56E9 /* CampusMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946C29E7AE3100FD56E9 /* CampusMap.swift */; };
+		2691946F29E7AE5F00FD56E9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946E29E7AE5F00FD56E9 /* Settings.swift */; };
 		EE3AEE2629E3B17C00F88061 /* parking_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */; };
 		EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE2729E3B17C00F88061 /* ContentView.swift */; };
 		EE3AEE2A29E3B17D00F88061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEE2929E3B17D00F88061 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2691946029E6AC4400FD56E9 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
+		2691946A29E7ADA000FD56E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2691946C29E7AE3100FD56E9 /* CampusMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMap.swift; sourceTree = "<group>"; };
+		2691946E29E7AE5F00FD56E9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		EE3AEE2229E3B17C00F88061 /* parking_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parking_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parking_appApp.swift; sourceTree = "<group>"; };
 		EE3AEE2729E3B17C00F88061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +45,9 @@
 		EE3AEE1929E3B17C00F88061 = {
 			isa = PBXGroup;
 			children = (
+				2691946A29E7ADA000FD56E9 /* DetailView.swift */,
+				2691946C29E7AE3100FD56E9 /* CampusMap.swift */,
+				2691946E29E7AE5F00FD56E9 /* Settings.swift */,
 				EE3AEE2429E3B17C00F88061 /* parking_app */,
 				EE3AEE2329E3B17C00F88061 /* Products */,
 			);
@@ -74,6 +85,7 @@
 			children = (
 				EE3AEE2729E3B17C00F88061 /* ContentView.swift */,
 				EE3AEE3329E3BAE600F88061 /* pageView.swift */,
+				2691946029E6AC4400FD56E9 /* launchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3AEE2D29E3B17D00F88061 /* Preview Assets.xcassets in Resources */,
+				2691946129E6AC4400FD56E9 /* launchScreen.storyboard in Resources */,
 				EE3AEE2A29E3B17D00F88061 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2691946F29E7AE5F00FD56E9 /* Settings.swift in Sources */,
 				EE3AEE3429E3BAE600F88061 /* pageView.swift in Sources */,
+				2691946B29E7ADA000FD56E9 /* DetailView.swift in Sources */,
+				2691946D29E7AE3100FD56E9 /* CampusMap.swift in Sources */,
 				EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */,
 				EE3AEE2629E3B17C00F88061 /* parking_appApp.swift in Sources */,
 			);
@@ -281,9 +297,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"parking_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Aggie Park";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +327,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"parking_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Aggie Park";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
