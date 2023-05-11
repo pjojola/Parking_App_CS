@@ -105,7 +105,7 @@ extension MapView {
                 self.parent.mapView.setRegion(MKCoordinateRegion(rect), animated: true)
             }
         }
-        // Gets potential routes that is the fasted
+        // Gets potential routes that is the fastest
         func getDestinationRoute(from userLocation: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D, completion: @escaping(MKRoute) -> Void) {
             let userPlacemark = MKPlacemark(coordinate: userLocation )
             let destPlacemark = MKPlacemark(coordinate: destination)
