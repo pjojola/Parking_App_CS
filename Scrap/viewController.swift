@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 5/10/23.
 //
+//  Code tried to be used to create annotations for the top 3 closet parking lots
 
 import Foundation
 import MapKit

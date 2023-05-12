@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/22/23.
 //
+//  Main search bar on UI for finding parking
 
 import SwiftUI
 

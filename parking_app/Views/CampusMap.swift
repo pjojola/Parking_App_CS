@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/12/23.
 //
+//  Interactive map of NMSU
 
 import Foundation
 import SwiftUI

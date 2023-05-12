@@ -37,6 +37,6 @@ struct LocationSearchResultsCell: View {
 
 struct LocationSearchResultsCell_Previews: PreviewProvider {
     static var previews: some View {
-        LocationSearchResultsCell(title: "starbucks", subtitle: "123 main")
+        LocationSearchResultsCell(title: "science hall", subtitle: "123 main")
     }
 }

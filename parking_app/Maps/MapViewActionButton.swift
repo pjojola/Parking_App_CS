@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/22/23.
 //
+// The menu button used to go back to map view and back 
 
 import SwiftUI
 

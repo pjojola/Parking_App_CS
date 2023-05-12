@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 5/10/23.
 //
+//  Used for having an enum state in code 
 
 import Foundation
 

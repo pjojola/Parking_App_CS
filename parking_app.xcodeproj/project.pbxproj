@@ -122,8 +122,8 @@
 		EE3AEE2429E3B17C00F88061 /* parking_app */ = {
 			isa = PBXGroup;
 			children = (
-				26FCAA022A0CF59000803CDE /* ParkingCounter.swift */,
 				EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */,
+				26FCAA022A0CF59000803CDE /* ParkingCounter.swift */,
 				26FCA9F52A0C560400803CDE /* Maps */,
 				26FCA9E92A0BB5EB00803CDE /* LocationSearch */,
 				EE3AEE3529E3BB3800F88061 /* Views */,

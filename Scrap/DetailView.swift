@@ -4,21 +4,10 @@
 //
 //  Created by Bianka B on 4/12/23.
 //
+//  Inital code to search for campus buildings that will pop up annotations of the closet parking lots
 
 import SwiftUI
 import MapKit
-
-// search building
-// show lots closet to building and the available spots open
-// show navigation to parking lot
-
-// available spots
-// distance
-
-// calculate who is closet to parking lot and update
-
-
-
 
 struct DetailView: View {
     @State private var searchText = ""

@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/22/23.
 //
+// Used for having the Apple Maps API do callbacks 
 
 import Foundation
 import MapKit

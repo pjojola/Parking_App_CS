@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/22/23.
 //
+// UI for the mapView
 
 import SwiftUI
 

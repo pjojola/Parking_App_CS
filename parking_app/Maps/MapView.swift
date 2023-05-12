@@ -4,6 +4,7 @@
 //
 //  Created by Bianka B on 4/22/23.
 //
+//  Main code in creating the map view logic 
 
 import Foundation
 
@@ -43,14 +44,11 @@ struct MapView: UIViewRepresentable {
             }
             break
         }
-        
-        
-//if mapState == .noInput {
-//    context.coordinator.clearMapView()
-//}
+    //if mapState == .noInput {
+    //    context.coordinator.clearMapView()
+    //}
         
     }
-    
     func makeCoordinator() -> MapCoordinator {
         return MapCoordinator(parent:self)
         
